@@ -31,10 +31,7 @@ public class AmazonSearch {
 
 	@Then("validate the mobile page")
 	public void validate_the_mobile_page() throws IOException {
-		TakesScreenshot ss=(TakesScreenshot) Hooks.driver;
-		File sourse=ss.getScreenshotAs(OutputType.FILE);
-		File Target=new File("C:\\Users\\hp\\eclipse-workspace\\cucumberflip\\target\\ss.png");
-		FileUtils.copyFile(sourse, Target);
+		
 		System.out.println("hiiiiiiiiiiiiiiiiii");
 	    
 	}
